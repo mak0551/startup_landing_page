@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .innercontainer{
+            /* display: inline-block; */
+            /* position: absolute; */
+            /* left: 30%; */
+            /* right: 30%;  */
+            /* margin-left: 30%; */
+            /* margin-right: 30%; */
+            text-align: left;
+            /* border: 5px solid rebeccapurple; */
+            height: 500px;
+            width: 600px;
+            flex-shrink: 2;
+        }
+        .container{
+            margin-top: 10%;
+            /* border: 2px solid white; */
+            display: block;
+            box-sizing: border-box;
+            /* text-align: center; */
+            height: 40em;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 2px 2px 7px rgb(31, 26, 26);
+        }
+        .h1{
+            text-transform: uppercase;
+            font-family:monospace;
+            font-size: 5em;
+            /* line-height: 2em; */
+        }
+        hr{
+            border-color: blue;
+            position: relative;
+            width: 80px;
+            margin-left: 8%;
+            margin-bottom: 35px;
+        }
+        .btn:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+
+        .btn{
+            border: 3px solid rgb(33, 33, 230);
+            border-radius: 700px;
+            padding: 0px 0px 0px 20px;
+            text-transform: lowercase;
+            font-family:cursive;
+            width: 200px;
+            height: 70px;
+            color: white;
+            text-align: left;
+            font-size: 30px;
+            background-color: rgb(9, 69, 235);
+        }
+        body {
+            background: url("https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+            background-size: 100%;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="innercontainer">
+        <h1 style="color: white;" class="h1">this is a business landing page for business</h1>
+        <hr>    
+        <a href="layout.html">
+        <button type="button" name="button" class="btn"> know more...</button>
+        </a>    
+    </div>
+</div>
+</body>
+
+</html>
